@@ -1,0 +1,31 @@
+ 
+        .error {
+            color: red;
+            font-size: 0.9em;
+            display: none;
+        }
+
+        .error.visible {
+            display: block;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
